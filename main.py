@@ -3,7 +3,7 @@ import requests
 from flask import Flask, request
 from flask_cors import CORS
 
-from .utils import (
+from utils import (
     is_perfect,
     is_prime,
     sum_digit,
