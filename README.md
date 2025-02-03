@@ -13,13 +13,13 @@ This API takes a number as input and returns interesting mathematical properties
 
 ## API Endpoint  
 
-### **GET /api/classify-number**  
+### **GET https://classify-num.onrender.com/api/classify-number**  
 #### **Request Parameters:**  
 - `number` (integer, required): The number to classify  
 
 #### **Example Request:**  
 ```bash
-curl -X GET "https://your-domain.com/api/classify-number?number=371"
+curl -X GET "https://classify-num.onrender.com/api/classify-number?number=371"
 ```
 
 #### **Response Format**  
